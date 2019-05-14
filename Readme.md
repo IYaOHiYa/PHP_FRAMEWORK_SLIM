@@ -26,3 +26,13 @@ db -> test
 - dbName
 - user
 - passwd
+
+## Testing
+`
+php -S localhost:8080 -t {your public directory} {your index.php place}
+`
+
+Ex.
+`
+php -S localhost:8080 -t public public/index.php
+`
