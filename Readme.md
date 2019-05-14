@@ -9,6 +9,7 @@ USE slim framework
 
 >src/
 >>Dependency	依賴的模組
+
 >>Middleware	中間層，可在REQUEST前與後增加程式
 >>Model		處理DB
 >>Route		處理路由
