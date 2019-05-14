@@ -7,7 +7,8 @@ build by slim framework
 
 USE slim framework
 
-## src/
+## Tree explain
+src/
 >Dependency	依賴的模組  
 >Middleware	中間層，可在REQUEST前與後增加程式  
 >Model		處理DB  
@@ -17,7 +18,7 @@ USE slim framework
 >setup.php	Slim設定擋  
 
 
-## setting db
+## Setting db
 path: src/setup.php
 
 db -> test
@@ -36,3 +37,6 @@ Ex.
 `
 php -S localhost:8080 -t public public/index.php
 `
+
+## Credits
+http://www.slimframework.com/
